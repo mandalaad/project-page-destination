@@ -1,8 +1,12 @@
+// * {
+//     outline: 1px red solid;
+// }
 html,
 body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    outline: 1px red solid;
 }
 
 .section2 {
@@ -77,10 +81,14 @@ body {
 
 .kartu1 {
     background-color: #1A2C21;
+    width: 600px;
+    min-height: 300px;
 }
 
 .kartu2 {
     background-color: #0C5B21;
+    width: 600px;
+    min-height: 300px;
 }
 
 .card:hover {
@@ -89,34 +97,33 @@ body {
     z-index: 1;
 }
 
-.awan1 {
+.awan {
     position: absolute;
-    top: 40px;
-    margin-left: 120px;
+}
+
+.awan1 {
+    right: 19.17%;
+    top: 90.67%;
 }
 
 .awan2 {
-    position: absolute;
-    top: 20px;
-    margin-left: 180px;
+    right: 10.22%;
+    top: 25.16%;
 }
 
 .awan3 {
-    position: absolute;
-    top: 60px;
-    margin-left: 190px;
+    right: 3.9%;
+    top: 32.48%;
 }
 
 .awan4 {
-    position: absolute;
-    top: 10px;
-    margin-left: 240px;
+    right: 12.17%;
+    top: 12.67%;
 }
 
 .awan5 {
-    position: absolute;
-    top: 80px;
-    margin-left: 240px;
+    right: 12.17%;
+    top: 12.67%;
 }
 
 .section5 {
@@ -132,6 +139,7 @@ body {
     width: 200px;
     height: 40px;
 }
+
 // background footer via css
 // .bgf1 {
 //     background: rgb(255, 255, 255);
@@ -205,5 +213,8 @@ body {
         margin-top: 50px;
         position: absolute;
         right: 0;
+    }
+    .section3 {
+        margin-top: 600px;
     }
 }
