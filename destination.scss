@@ -1,12 +1,15 @@
-// * {
-//     outline: 1px red solid;
-// }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@300&display=swap');
+* {
+    // outline: 1px red solid;
+    font-family: 'Montserrat';
+}
+
 html,
 body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    outline: 1px red solid;
+    // outline: 1px red solid;
 }
 
 .section2 {
@@ -17,8 +20,8 @@ body {
     box-sizing: border-box;
     position: absolute;
     right: 0;
-    width: 666px;
-    height: 337px;
+    width: 566px;
+    height: 237px;
     top: 290.85px;
     border: 16px solid #FD7B38;
     z-index: -1;
@@ -66,6 +69,72 @@ body {
 
 .section3 {
     margin-top: 400px;
+    .container {
+        .img-box {
+            position: relative;
+            img {
+                width: 230px;
+                height: 372px;
+                border-radius: 10px;
+                position: relative;
+                object-fit: cover;
+                object-position: left;
+            }
+            h2 {
+                color: #fff;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 34px;
+                position: absolute;
+                bottom: 50px;
+                left: 20px;
+            }
+            p {
+                color: #fff;
+                font-size: 18px;
+                font-style: medium;
+                line-height: 25px;
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+            }
+        }
+    }
+}
+
+.section5 {
+    margin-top: 400px;
+    .container {
+        .img-box {
+            position: relative;
+            img {
+                width: 230px;
+                height: 372px;
+                border-radius: 10px;
+                position: relative;
+                object-fit: cover;
+                object-position: left;
+            }
+            h2 {
+                color: #fff;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 34px;
+                position: absolute;
+                bottom: 50px;
+                left: 20px;
+            }
+            p {
+                color: #fff;
+                font-size: 18px;
+                font-style: medium;
+                line-height: 25px;
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+            }
+        }
+    }
 }
 
 .btn1 {
@@ -81,13 +150,13 @@ body {
 
 .kartu1 {
     background-color: #1A2C21;
-    width: 600px;
+    width: 550px;
     min-height: 300px;
 }
 
 .kartu2 {
     background-color: #0C5B21;
-    width: 600px;
+    width: 550px;
     min-height: 300px;
 }
 
@@ -97,33 +166,34 @@ body {
     z-index: 1;
 }
 
-.awan {
+.awan1 {
+    right: 29.17%;
+    top: 19.67%;
     position: absolute;
 }
 
-.awan1 {
-    right: 19.17%;
-    top: 90.67%;
-}
-
 .awan2 {
-    right: 10.22%;
-    top: 25.16%;
+    right: 19.22%;
+    top: 10.16%;
+    position: absolute;
 }
 
 .awan3 {
-    right: 3.9%;
-    top: 32.48%;
+    right: 10.9%;
+    top: 5.48%;
+    position: absolute;
 }
 
 .awan4 {
-    right: 12.17%;
-    top: 12.67%;
+    right: 18.17%;
+    top: 27.67%;
+    position: absolute;
 }
 
 .awan5 {
-    right: 12.17%;
-    top: 12.67%;
+    right: 8.17%;
+    top: 28.67%;
+    position: absolute;
 }
 
 .section5 {
